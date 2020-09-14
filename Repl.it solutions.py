@@ -8,7 +8,7 @@ def f(x: int):
 
     """ Or
     
-    return x
+    return x + 4
     """
 
 01.02 Intro: say_hello
@@ -16,3 +16,10 @@ def f(x: int):
 def say_hello(name: str):
     greeting = f"Hello, {name}!"
     return greeting
+
+
+01.03 Intro: Sum of three numbers
+
+def add(a: int, b: int, c: int):
+    sum = a + b + c
+    return sum

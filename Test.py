@@ -108,7 +108,7 @@ def get_stock(item, inventory):
         get_stock("oranges", inventory) -> 0
         get_stock("crossbow", inventory) -> -1
     """
-    if item not in inventory.keys()
+    if item not in inventory.keys():
         return -1
     else:
         return inventory[item]
